@@ -6,7 +6,7 @@
 	<artifactId>FSwebbuilder</artifactId>
 	<packaging>pom</packaging>
 	<version>${webbuilder.framework.version}</version>
-1
+
 	<properties>
 		<webbuilder.framework.version>0.0.1-SNAPSHOT</webbuilder.framework.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
