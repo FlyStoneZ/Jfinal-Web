@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.stone</groupId>
+		<artifactId>FSwebbuilder</artifactId>
+		<version>${webbuilder.framework.version}</version>
+	</parent>
+
+	<artifactId>webbuilder-web</artifactId>
+	<name>webbuilder-web</name>
+	<packaging>war</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.stone</groupId>
+			<artifactId>webbuilder-core</artifactId>
+			<version>${webbuilder.framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.stone</groupId>
+			<artifactId>webbuilder-persistence</artifactId>
+			<version>${webbuilder.framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.stone</groupId>
+			<artifactId>webbuilder-service</artifactId>
+			<version>${webbuilder.framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.stone</groupId>
+			<artifactId>webbuilder-utils</artifactId>
+			<version>${webbuilder.framework.version}</version>
+		</dependency>
+	</dependencies>
+</project>

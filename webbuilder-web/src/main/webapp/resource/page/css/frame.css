@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+html {
+	height: 100%;
+}
+
+.am-icon-btn {
+	width: 75px;
+	height: 75px;
+	font-size: 45px;
+	line-height: 75px;
+	border-radius: 50%;
+}
+
+.blue {
+	background-color: #3bb4f2;
+}
+
+.am-tabs-bd {
+	border: none;
+}
+
+.am-tab-panel {
+	height: 500px;
+	overflow-y: auto;
+}

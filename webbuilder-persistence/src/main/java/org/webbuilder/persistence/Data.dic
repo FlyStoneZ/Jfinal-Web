@@ -1,0 +1,37 @@
+Table: datasource
+------------+--------------+------+-----+---------+---------
+ Field      | Type         | Null | Key | Default | Remarks 
+------------+--------------+------+-----+---------+---------
+ guid       | VARCHAR(36)  | NO   | PRI |         |         
+ sourceName | VARCHAR(50)  | YES  |     |         |         
+ url        | VARCHAR(255) | YES  |     |         |         
+ userName   | VARCHAR(255) | YES  |     |         |         
+ password   | VARCHAR(255) | YES  |     |         |         
+ type       | VARCHAR(20)  | YES  |     |         |         
+------------+--------------+------+-----+---------+---------
+
+Table: webdb_menus
+----------+--------------+------+-----+--------------+---------
+ Field    | Type         | Null | Key | Default      | Remarks 
+----------+--------------+------+-----+--------------+---------
+ guid     | VARCHAR(36)  | NO   | PRI |              |         
+ name     | VARCHAR(32)  | NO   |     |              |         
+ color    | VARCHAR(32)  | YES  |     | am-success   |         
+ icon     | VARCHAR(32)  | YES  |     | am-icon-home |         
+ href     | VARCHAR(300) | YES  |     |              |         
+ parent   | VARCHAR(36)  | YES  |     |              |         
+ topnode  | VARCHAR(36)  | YES  |     |              |         
+ orderNum | INT(10)      | YES  |     | 0            |         
+----------+--------------+------+-----+--------------+---------
+
+Table: webdb_user
+----------+-------------+------+-----+---------+---------
+ Field    | Type        | Null | Key | Default | Remarks 
+----------+-------------+------+-----+---------+---------
+ guid     | VARCHAR(50) | NO   | PRI |         |         
+ username | VARCHAR(32) | YES  |     |         |         
+ sex      | VARCHAR(2)  | YES  |     |         |         
+ age      | INT(10)     | YES  |     |         |         
+ address  | VARCHAR(32) | YES  |     |         |         
+----------+-------------+------+-----+---------+---------
+

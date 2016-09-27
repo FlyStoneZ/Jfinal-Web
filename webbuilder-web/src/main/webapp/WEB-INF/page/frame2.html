@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>UIKit version</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" href="/resource/basic/css/amazeui.min.css" />
+<script type="text/javascript" src="/resource/basic/js/jquery.min.js"></script>
+<script type="text/javascript" src="/resource/basic/js/amazeui.min.js"></script>
+<script type="text/javascript" src="/resource/page/js/common.js"></script>
+<script type="text/javascript" src="/resource/page/js/index.js"></script>
+<style>
+html{
+	height:100%;
+}
+.am-icon-btn {
+	width: 75px;
+	height: 75px;
+	font-size: 45px;
+	line-height: 75px;
+	border-radius: 50%;
+}
+
+.blue {
+	background-color: #3bb4f2;
+}
+.am-tabs-bd {
+    border: none;
+}
+.am-tab-panel {
+	height: 500px;
+	overflow-y: auto; 
+}
+</style>
+</head>
+<body>
+	<div class="am-g">
+		<div
+			class="am-fr am-margin-right am-padding-bottom-sm am-padding-top-xs">
+			<!--## loop the top menus ##-->
+			<!--: for(menu in menus){ -->
+				<div class="am-fl am-padding-horizontal-xs">
+					<a href="${menu.href}"
+						class="am-icon-btn ${menu.color} ${menu.icon}"></a>
+					<div class="am-text-center am-text-primary">
+						<b>${menu.name}</b>
+					</div>
+				</div>
+			<!--: } -->
+		</div>
+	</div>
+	<div class="am-g blue">
+		<div class="am-margin-top-0 am-fr">
+			<div class="am-btn-group">
+			<!--: #ajax as:{ -->
+				<div class="am-dropdown" data-am-dropdown>
+				  <button class="am-btn am-btn-secondary am-dropdown-toggle" data-am-dropdown-toggle>下拉列表</button>
+				  <ul class="am-dropdown-content">
+				    <li><a href="#">三级菜单1</a></li>
+				    <li><a href="#">三级菜单2</a></li>
+				    <li><a href="#">三级菜单3</a></li>
+				    <li class="am-disabled"><a href="#">三级菜单4</a></li>
+				    <li class="am-divider"></li>
+				    <li><a href="#">三级菜单5</a></li>
+				  </ul>
+				</div>
+				<div class="am-dropdown" data-am-dropdown>
+				  <button class="am-btn am-btn-secondary am-dropdown-toggle" data-am-dropdown-toggle>下拉列表</button>
+				  <div class="am-dropdown" data-am-dropdown>
+				  <button class="am-btn am-btn-secondary am-dropdown-toggle" data-am-dropdown-toggle>下拉列表</button>
+				  <ul class="am-dropdown-content">
+				    <li><a href="#">三级菜单1</a></li>
+				    <li><a href="#">三级菜单2</a></li>
+				    <li><a href="#">三级菜单3</a></li>
+				    <li class="am-disabled"><a href="#">三级菜单4</a></li>
+				    <li class="am-divider"></li>
+				    <li><a href="#">三级菜单5</a></li>
+				  </ul>
+				</div>
+				  <ul class="am-dropdown-content">
+				    <li><a href="#">三级菜单1</a></li>
+				    <li><a href="#">三级菜单2</a></li>
+				    <li><a href="#">三级菜单3</a></li>
+				    <li class="am-disabled"><a href="#">三级菜单4</a></li>
+				    <li class="am-divider"></li>
+				    <li><a href="#">三级菜单5</a></li>
+				  </ul>
+				</div>
+			<!--: }-->
+			</div>
+		</div>
+	</div>
+	<div class="am-tabs" data-am-tabs="{noSwipe: 1}">
+		<ul class="am-tabs-nav am-nav am-nav-tabs">
+			<li class="am-active"><a href="javascript: void(0)">流浪</a></li>
+			<li><a href="javascript: void(0)">流浪</a></li>
+			<li><a href="javascript: void(0)">再流浪</a></li>
+		</ul>
+
+		<div class="am-tabs-bd">
+			<div class="am-tab-panel am-active">
+				11111111111111111111111111111<br>
+				11111111111111111111111111111<br>
+				11111111111111111111111111111<br>
+				11111111111111111111111111111<br>
+				11111111111111111111111111111<br>
+				11111111111111111111111111111<br>
+			</div>
+			<div class="am-tab-panel">
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+				22222222222222222222222222222<br>	
+			</div>
+			<div class="am-tab-panel">
+				33333333333333333333333333333<br>
+				33333333333333333333333333333<br>
+				33333333333333333333333333333<br>
+				33333333333333333333333333333<br>
+				33333333333333333333333333333<br>
+				33333333333333333333333333333<br>
+				33333333333333333333333333333<br>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
